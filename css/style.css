@@ -1,4 +1,4 @@
- :root {
+﻿ :root {
     --verde: #2d6a4f;
     --verde-claro: #52b788;
     --verde-suave: #d8f3dc;
@@ -121,7 +121,6 @@
     padding: 0.5rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.05);
   }
-
 
   .hero {
   min-height: 100svh;

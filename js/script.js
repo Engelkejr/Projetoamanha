@@ -1,4 +1,4 @@
-
+﻿
   window.addEventListener('scroll', () => {
     document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 10);
   });
@@ -36,7 +36,7 @@
   }
 
   const texto = `Olá! Meu nome é ${nome} e quero colaborar com o Projeto O Amanhã.%0A*Interesse:* ${interesse || 'Não informado'}%0A${mensagem ? '*Mensagem:* ' + mensagem : ''}%0A%0A*WhatsApp para contato:* ${whatsapp}`;
-  
+
   window.open(`https://wa.me/5521997571414?text=${texto}`, '_blank');
 }
 
